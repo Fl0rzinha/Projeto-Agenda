@@ -1,4 +1,5 @@
 <?php
+// Esse arquivo basicamente serve para fazer com q o arquivo php se conecte com o banco de dados, criando, lendo, excluindo, ou carregando informações 
 
 //Inicia a sessão
 session_start();
