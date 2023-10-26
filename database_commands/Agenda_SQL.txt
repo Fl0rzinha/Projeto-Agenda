@@ -1,0 +1,47 @@
+CREATE DATABASE agenda;
+
+USE agenda;
+
+_________________________________
+
+CREATE TABLE contacts(
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    phone VARCHAR(20),
+    observations TEXT
+);
+
+_________________________________
+
+Inserções com nomes de artistas de Hollywood em SQL.
+(Obs: Escolher este ou o de baixo para ter alguns registros, sendo isto opcional)
+
+INSERT INTO contacts (name, phone, observations) VALUES ('Brad Pitt', '555-1234', 'Ator de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Angelina Jolie', '555-2345', 'Atriz de Hollywood');  
+INSERT INTO contacts (name, phone, observations) VALUES ('Tom Cruise', '555-3456', 'Ator de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Julia Roberts', '555-4567', 'Atriz de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('George Clooney', '555-5678', 'Ator de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Jennifer Lawrence', '555-6789', 'Atriz de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Leonardo DiCaprio', '555-7890', 'Ator de Hollywood');  
+INSERT INTO contacts (name, phone, observations) VALUES ('Sandra Bullock', '555-8901', 'Atriz de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Robert De Niro', '555-9012', 'Ator de Hollywood');
+INSERT INTO contacts (name, phone, observations) VALUES ('Meryl Streep', '555-0123', 'Atriz de Hollywood');
+
+
+_________________________________
+
+Inserções com nomes de pilotos de Fórmula 1 em SQL.
+
+INSERT INTO contacts (name, phone, observations) VALUES ('Lewis Hamilton', '555-1234', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Max Verstappen', '555-2345', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Charles Leclerc', '555-3456', 'Piloto de Fórmula 1');  
+INSERT INTO contacts (name, phone, observations) VALUES ('Carlos Sainz', '555-4567', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('George Russell', '555-5678', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Lando Norris', '555-6789', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Daniel Ricciardo', '555-7890', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Pierre Gasly', '555-8901', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Fernando Alonso', '555-9012', 'Piloto de Fórmula 1');
+INSERT INTO contacts (name, phone, observations) VALUES ('Esteban Ocon', '555-0123', 'Piloto de Fórmula 1');
+
+
+
