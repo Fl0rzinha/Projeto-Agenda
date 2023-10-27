@@ -1,5 +1,4 @@
 <?php
-// Esse arquivo basicamente serve para fazer com q o arquivo php se conecte com o banco de dados, criando, lendo, excluindo, ou carregando informações 
 
 //Inicia a sessão
 session_start();
@@ -66,12 +65,12 @@ if(!empty($data)) {
 
         // query de atualização
         $query = "UPDATE contacts
-                SET name = :nome, phone = :phone, observations = :observations
+                SET name = :name, phone = :phone, observations = :observations
                 WHERE id = :id";
         
         $stmt = $conn->prepare($query);
 
-        $stmt->bindParam(":nome", $nome);
+        $stmt->bindParam(":name", $name);
         $stmt->bindPAram(":phone", $phone);
         $stmt->bindParam(":observations", $observations);
         $stmt->bindParam(":id", $id);
